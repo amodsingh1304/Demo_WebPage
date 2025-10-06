@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume Service — Hero</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styleFigma.css">
+
+  <meta name="description" content="Resume creation service — mockup based on provided Figma design" />
+</head>
+<body>
+
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <!-- simple logo text; replace with SVG if you have an asset -->
+        <div class="logo-mark">◐</div>
+        <div class="logo-text">
+          <div class="company">COMPANY</div>
+          <div class="tagline">business tagline</div>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="cta">
+        <a class="btn btn-ghost" href="#">Get A Quote</a>
+      </div>
+    </div>
+  </header>
+
+ 
+  <section class="hero">
+    <div class="container hero-inner">
+      <!-- Left column: text -->
+      <div class="hero-left">
+        <h1 class="hero-title">
+          Your Resume
+          <span class="accent-line">Deserves A Yes</span>
+          Let's<br/>Make It Happen
+        </h1>
+
+        <p class="hero-sub">
+          If Your Resume Isn’t Getting Responses, It’s Time For An Upgrade.
+          Get An ATS-Optimized Resume Crafted By HR Experts To Help You
+          Land More Interviews. Our Resumes Are Designed To Get Your Foot
+          In The Door And Place Your Name At The Top Of The Shortlist.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#">RESUME PACKAGES</a>
+          <a class="btn btn-outline" href="#">CONTACT US</a>
+        </div>
+      </div>
+
+   
+      <div class="hero-right">
+
+        <div class="hero-visual">
+
+          <img class="person" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=60" alt="Student with folders">
+          <!-- rating badge -->
+          <div class="badge rating">
+            <div class="rating-number">4.9</div>
+            <div class="rating-stars">★ ★ ★ ★ ☆</div>
+            <div class="rating-label">Instructor Rating</div>
+          </div>
+
+          <div class="badge card">
+            <div class="card-icon">🎓</div>
+            <div class="card-text">
+              <div class="card-count">260+</div>
+              <div class="card-desc">Online Resume Created</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="features">
+    <div class="container features-inner">
+      <h3 class="features-heading">You’re Not Just <span class="highlight">Another Applicant</span> And Your Resume Shouldn’t Look Like One</h3>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-illustration">📄</div>
+          <h4>A Resume Format That Gets You Interviews</h4>
+          <p class="muted">a professionally written, ats-optimized resume that lands in recruiter inboxes.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-illustration">✉️</div>
+          <h4>A Cover Letter Style That Stands Out Strong</h4>
+          <p class="muted">Stand out with a cover letter that speaks directly to the role and reflects your strengths.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-illustration">🔗</div>
+          <h4>A LinkedIn Profile That Works For You</h4>
+          <p class="muted">Attract the right eyes, start conversations, and show up in recruiter searches.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-illustration">💬</div>
+          <h4>An Interview Strategy That Builds Confidence</h4>
+          <p class="muted">Interview preparation with real HR professionals so you speak clearly confidently.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> COMPANY — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
